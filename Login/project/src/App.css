@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.continue{
+  padding-left: 100px;
+  padding-top: 10px;
+  font-size: small;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logout{
+  background-color: rgb(3, 82, 253);
+  color: white;
+  padding:5px;
+  margin-left: 100px;
+
+}
+.App {
+	text-align: center;
+}
+.Project {
+	color:  rgb(25, 153, 200);
+  font-size: xx-large;
+  padding-top: 30px;
+  letter-spacing: 2px;
+}
+.container {
+	margin-top: 5rem;
+}
+
+.form-container {
+	max-width: 400px;
+	margin: auto;
+}
+.home{
+  display: inline-block;
+  margin-left: 30px;
+  
+}
+.submit{
+  margin-right: 180px;
+}
+.container {
+	margin-top: 5rem;
+}
+
+.form-container {
+	max-width: 400px;
+	margin: auto;
+}
+.update{
+  display: inline-block;
+  justify-content: end;
+
+}
+.update-btn{
+  margin-right: 80px;
+}
+
+.ml-2 {
+	margin-left: 0.5rem;
+}
+.delete{
+  display: inline-block;
+  margin-left:5px;
+  padding: 5px;
+}
